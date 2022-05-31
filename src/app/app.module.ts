@@ -6,6 +6,8 @@ import { TranslateService } from '@ngx-translate/core';
 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SharedModule } from './common/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    SharedModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
@@ -20,7 +23,8 @@ import { AppComponent } from './app.component';
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    BrowserAnimationsModule
   ],
   providers: [
     {

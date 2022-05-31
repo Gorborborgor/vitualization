@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "roboto";
+  font-size: 10px;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}

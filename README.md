@@ -24,17 +24,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Plan
 
-1. translations done
-2. add user module
+1. DONE: translations
+2. DONE: project structure
+3. TODO: add user module
     - user home view
     - animations and effects
-3. add admin module
+4. TODO: add admin module
     - routing
     - login page
     - admin home view
     - edit functionality (back end / api)
 
-add translations
+DONE: add translations
 flash out pages and modules
 fill user module with animations and effects
 styling (variables, fonts)

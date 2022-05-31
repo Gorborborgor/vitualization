@@ -7,7 +7,9 @@ import { TranslateService } from '@ngx-translate/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SharedModule } from './common/shared/shared.module';
+import { SharedModule } from './shared/shared.module';
+import { HomeModule } from './modules/home/home.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { SharedModule } from './common/shared/shared.module';
     BrowserModule,
     SharedModule,
     HttpClientModule,
+    AppRoutingModule,
+    HomeModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

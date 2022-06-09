@@ -29,16 +29,25 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 3. DONE: add user module
     - DONE: routing
     - TODO: user home view
+        - TODO: project cards (come up with a creative way to showcase them)
+    - TODO: contacts
+    - TODO: separate pages for particular projects
     - TODO: animations and effects
 4. TODO: add admin module
     - DONE: routing
     - TODO: admin home view
+        - TODO: edit/delete existing cards
+        - TODO: add new ones
+        - TODO: drag and drop card reorder (depends on selected showcase)
     - TODO: edit functionality (back end / api)
 5. TODO: add auth
     - DONE: routing
-    - TODO: auth page
-    - TODO: mock guard
+    - DONE: auth page
+    - DONE: mock guard and authorization
+    - TODO: can deactivate on logout
     - TODO: guard (back end / api)
+6. TODO: Mobile adaptation
+7. TODO: BackEnd
 
 DONE: add translations
 flash out pages and modules

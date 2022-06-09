@@ -1,2 +1,16 @@
-<p>login works!</p>
-<button mat-button (click)="login()">Log In</button>
+<mat-card>
+    <h2>{{ 'WELCOME' | translate }} </h2>
+    <app-input
+        [label]=" 'PASSWORD' | translate"
+        [type]="InputType.password"
+        [control]="passwordControl"
+    ></app-input>
+
+    <button 
+        mat-button
+        mat-raised-button
+        color="primary"
+        (click)="onLogin()">
+        {{ 'LOGIN' | translate }}
+    </button>
+</mat-card>

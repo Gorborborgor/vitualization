@@ -7,9 +7,28 @@
 :root {
   font-family: "roboto";
   font-size: 10px;
+  font-weight: 400;
 }
 
 body {
   background-color: var(--color-primary);
+  color: var(--color-secondary); 
+
+  h1.h1 {
+    margin-bottom: 0;
+    font-weight: 300;
+  }
+}
+
+a {
+  text-decoration: none;
   color: var(--color-secondary);
+
+  &:hover {
+    color: var(--color-secondary-light);
+  }
+}
+
+h1 {
+  margin-bottom: none;
 }

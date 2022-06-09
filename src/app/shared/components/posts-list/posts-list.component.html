@@ -1,0 +1,15 @@
+<div class="posts__wrapper">
+    <ul class="posts">
+        <li
+            *ngFor="let post of posts; let i = index" 
+            class="post">
+            <a href="">
+                <div  class="post__image" [ngStyle]="setImage(i)">
+                    <!-- <h3>{{ post.name }}</h3>
+                    <p>{{ post.description }}</p> -->
+                </div>
+
+            </a>
+        </li>
+    </ul>
+</div>

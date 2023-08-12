@@ -32,6 +32,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
         - TODO: project cards (come up with a creative way to showcase them)
     - TODO: contacts
     - TODO: separate pages for particular projects
+      - TODO: designs
+      - TODO: furniture
     - TODO: animations and effects
 4. TODO: add admin module
     - DONE: routing

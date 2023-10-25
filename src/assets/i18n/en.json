@@ -5,6 +5,8 @@
     "PASSWORD": "Password",
     "PROJECTS": "Projects",
     "CONTACT": "Contact",
+    "FURNITURE": "Furniture",
+    "VISUALS": "Visualizations",
 
     "ERROR_MESSAGE": {
         "REQUIRED": "This field is required",

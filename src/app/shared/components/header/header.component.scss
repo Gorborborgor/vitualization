@@ -1,9 +1,15 @@
+:host {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 14px 4rem;
+}
+
 .header__wrapper {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10rem;
 }
 
 .navigation {

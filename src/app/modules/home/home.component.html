@@ -1,4 +1,11 @@
-<div class="content__wrapper">
-    <app-header></app-header>
-    <app-posts-list></app-posts-list>
-</div>
+<app-header></app-header>
+<a [routerLink]="'/furniture'" class="portfolio-section portfolio-section_left">
+  <div>
+    <h2>{{ "FURNITURE" | translate | uppercase }}</h2>
+  </div>
+</a>
+<a [routerLink]="'/visuals'" class="portfolio-section portfolio-section_right">
+  <div>
+    <h2>{{ "VISUALS" | translate | uppercase }}</h2>
+  </div>
+</a>

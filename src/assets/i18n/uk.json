@@ -1,10 +1,12 @@
 {
-    "NAME": "ВІТАЛІНА РУДЧЕНКО ЇБАШИТЬ АХУЄННО",
+    "NAME": "VITUALIZATION",
     "WELCOME": "Привіт, красуня",
     "LOGIN": "Увійти",
     "PASSWORD": "Пароль",
     "PROJECTS": "Проекти",
     "CONTACT": "Контакти",
+    "FURNITURE": "Меблі",
+    "VISUALS": "Візуалізації",
 
     "ERROR_MESSAGE": {
         "REQUIRED": "Це поле треба заповнити, бусінко",

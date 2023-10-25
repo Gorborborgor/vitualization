@@ -1,13 +1,22 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from './guards/auth.guard';
-import { AdminHomeComponent } from './modules/admin/admin-home.component';
 import { HomeComponent } from './modules/home/home.component';
+import { FurnitureViewComponent } from './modules/home/furniture-view/furniture-view.component';
+import { VisualsViewComponent } from './modules/home/visuals-view/visuals-view.component';
 
 const routes: Routes = [
   {
     path: 'portfolio',
     component: HomeComponent,
+  },
+  {
+    path: 'furniture',
+    component: FurnitureViewComponent
+  },
+  {
+    path: 'visuals',
+    component: VisualsViewComponent
   },
   {
     path: 'auth',

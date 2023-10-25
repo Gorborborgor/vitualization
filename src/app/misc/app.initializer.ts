@@ -7,8 +7,6 @@ export function AppInitializerFactory(translate: TranslateService): () => void {
     const languages: string[] = ['en'];
     const browserLang: string = translate.getBrowserLang() as string;
 
-    console.log('browserLang',browserLang);
-    
     translate.addLangs(languages);
     translate.setDefaultLang('en');
 

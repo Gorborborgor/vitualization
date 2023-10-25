@@ -1,7 +1,28 @@
-.content__wrapper {
-    padding: 5rem 10rem;
-    min-height: 100vh;
-    // background: url('../../../assets/images/1.jpg') no-repeat center center;
-    // background-size: cover;
+:host {
+  display: flex;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
 
+.portfolio-section {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+
+  &_left {
+    border-right: 1px solid var(--font-primary);
+  }
+
+  &_right {
+    border-left: 1px solid var(--font-primary);
+  }
+
+  &:hover {
+    transform: scale(1.1) ;
+  }
 }

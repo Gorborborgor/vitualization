@@ -1,11 +1,13 @@
-<app-header></app-header>
-<a [routerLink]="'/furniture'" class="portfolio-section portfolio-section_left">
-  <div>
-    <h2>{{ "FURNITURE" | translate | uppercase }}</h2>
-  </div>
-</a>
-<a [routerLink]="'/visuals'" class="portfolio-section portfolio-section_right">
-  <div>
-    <h2>{{ "VISUALS" | translate | uppercase }}</h2>
-  </div>
-</a>
+<div class="page-container">
+  <app-header></app-header>
+  <a [routerLink]="'/products'" class="portfolio-section portfolio-section_left">
+    <div>
+      <h2>{{ "PRODUCTS" | translate | uppercase }}</h2>
+    </div>
+  </a>
+  <a [routerLink]="'/architecture'" class="portfolio-section portfolio-section_right">
+    <div>
+      <h2>{{ "ARCHITECTURE" | translate | uppercase }}</h2>
+    </div>
+  </a>
+</div>

@@ -34,3 +34,20 @@ a {
 h1 {
   margin-bottom: none;
 }
+
+.page-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  padding: 4rem 0;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  padding: 4rem;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}

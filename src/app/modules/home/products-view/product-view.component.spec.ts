@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FurnitureViewComponent } from './furniture-view.component';
+import { FurnitureViewComponent } from './product-view.component';
 
 describe('FurnitureViewComponent', () => {
   let component: FurnitureViewComponent;

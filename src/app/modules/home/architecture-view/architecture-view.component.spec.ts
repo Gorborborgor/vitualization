@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VisualsViewComponent } from './visuals-view.component';
+import { VisualsViewComponent } from './architecture-view.component';
 
 describe('VisualsViewComponent', () => {
   let component: VisualsViewComponent;

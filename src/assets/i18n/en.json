@@ -5,8 +5,12 @@
     "PASSWORD": "Password",
     "PROJECTS": "Projects",
     "CONTACT": "Contact",
-    "FURNITURE": "Furniture",
-    "VISUALS": "Visualizations",
+    "PRODUCTS": "Product visualizations",
+    "ARCHITECTURE": "Architectural visualizations",
+
+    "BUTTON": {
+      "SHOW_MORE": "Show More"
+    },
 
     "ERROR_MESSAGE": {
         "REQUIRED": "This field is required",

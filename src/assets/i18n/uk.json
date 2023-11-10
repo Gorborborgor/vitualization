@@ -5,8 +5,12 @@
     "PASSWORD": "Пароль",
     "PROJECTS": "Проекти",
     "CONTACT": "Контакти",
-    "FURNITURE": "Меблі",
-    "VISUALS": "Візуалізації",
+    "PRODUCTS": "Продуктова візуалізація",
+    "ARCHITECTURE": "Архитектурна візуалізація",
+
+    "BUTTON": {
+      "SHOW_MORE": "Детальніше"
+    },
 
     "ERROR_MESSAGE": {
         "REQUIRED": "Це поле треба заповнити, бусінко",
